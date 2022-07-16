@@ -1,0 +1,114 @@
+Interaction Design Institute Ivrea (IDII)
+
+In 2005, the Arduino project began in response to the need for affordable and
+easy-to-use devices for Interaction Design students to use in their projects.
+It is said that Massimo Banzi and David Cuartielles named the project after
+Arduin of Ivrea, an Italian king, but I’ve heard from reliable sources that it
+also happens to be the name of the local pub near the university, which may
+have been of more significance to the project
+
+This technique is great for sidestepping the intricacies of hardware and
+getting the results you want. In the bonus chapter (www.dummies.com/
+go/arduinofd), you learn more about the joy of hacking and how you
+can weave hacked pieces of hardware into your Arduino project to control
+remote devices, cameras, and even computers with ease
+
+
+integrated circuit, or IC
+
+
+Another varia-
+tion you may find is the Arduino Uno R3 SMD, where SMD stands for surface
+mount device
+
+starting from Digital pins page 18
+
+PWM stands for Pulse Width Modulation,
+
+
+The ~ symbol appears next to digital pins 3, 5, 6, 9, 10, and 11, showing that
+you have 6 pins that are capable of PWM.
+
+
+Vin, which stands for voltage in
+
+The connector needed is a 2.1 mm center positive plug. Center positive
+simply means that the plug has an outside and an inside that fit the socket
+and that, in this case, the inside of the plug must be positive. You should be
+able to find this plug among the standard connectors that come with most
+power supplies; otherwise, you can buy the connector yourself and attach it
+to bare wires.
+If you connect a power supply that is the opposite (center negative), it is
+known as having a “reverse polarity.” There are components on the Arduino
+Uno R3 to resist your attempts to send voltage the wrong way around the
+board, but those components can melt in the progress of saving your board,
+depending on how much power you are sending and how long it takes you to
+notice the burning smell! If you reverse the polarity when using the Vin, 5V,
+or 3.3V pins, you bypass this protection and almost instantly destroy several
+parts of your board and the ATmega 328 chip.
+
+
+The recommended voltage for the Uno R3 board is 7-12V. If you supply too
+little power, your board might not function correctly. Or if you provide too
+much power you can cause your board to overheat and potentially damage it
+
+
+light-emitting diodes (LEDs)
+
+
+The Uno board has four
+light-emitting diodes (LEDs), labeled L, RX, TX, and ON
+
+ON is green and signifies that your Arduino is powered.
+
+
+RX and TX tell you that data is being received or transmitted by the board.
+
+
+L is a very special LED that’s connected to digital pin 13. This is great for
+testing to see whether your board is functioning as you want.
+
+
+start from Shopping for Arduino page 27
+
+
+start from page 32
+
+start from chapter 4 page 41
+
+
+Take a look at your LED and notice that one leg is longer than the other. Place
+the long leg (anode or +) of the LED in pin 13 and the short leg (cathode or -) in
+GND (ground). You see the same blink, but it is (hopefully) bigger and brighter
+depending on the LED you use. Insert the LED as shown in Figure 4-12.
+
+
+start from part 2 page 61
+
+Measuring voltage (in volts) in a circuit start from page 40
+
+
+start from chapter 7 page 91
+
+
+start from page 92 Using Pulse Width Modulation (PWM)
+
+
+Pin 9 is capable of Pulse Width Modulation (PWM),
+
+
+start from page 108
+
+we need to start read from here due to components
+
+now we are starting from chapter 8
+
+we need take a look on dc motor
+
+and start from servo motor
+
+
+start from page 156 making an instrument
+
+
+chorus start from page 165
